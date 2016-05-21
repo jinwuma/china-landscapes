@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;    
     font-family: "Avenir LT W01 65 Medium",Arial,Helvetica,sans-serif;
+    background-color: #000;
 }
 
 #mapDiv {
@@ -20,7 +21,23 @@ html, body {
     top:0;
     bottom: 0;
     /*height: 100%;*/
-    background-color: #543564;
+    background-color: #eee;
+}
+
+.sidebar-item {
+    margin: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.sidebar-content {
+    font-size: 20px;
+    margin: 10px 30px;
+    line-height: 30px;
 }
 
 #tableWrapper {
@@ -30,11 +47,17 @@ html, body {
     bottom: 0;  
     width: 75%;
     height: 35%;  
-    color: #3d3d3d;
+    color: #d0d0d0;
+    /*background-color: #eee;*/
 }
 
 #tableDiv {
     margin: 20px;
+    left: 10px;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    /*position: relative;*/
 }
 
 td {
@@ -43,20 +66,23 @@ td {
 }
 
 td:hover {
-    background-color: #68B0AB;
+    background-color: #346783;
+    color: #fff;
 }
-
-
-
 
 table {
   overflow: hidden;
+  border-collapse: collapse;
 }
 
 td, th {
   padding: 0px;
   position: relative;
   outline: 0;
+}
+
+table, td, th {
+    border: 1px solid #636363;
 }
 
 body:not(.nohover) tbody tr:hover {
@@ -78,7 +104,8 @@ thead th:not(:empty):focus::after {
 
 td:hover::after,
 th:hover::after {
-  background-color: #C8D5B9;
+  background-color: #4281A4;
+  
 }
 
 td:focus::after,
