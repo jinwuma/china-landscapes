@@ -1,0 +1,973 @@
+{
+  "hasZ" : true,
+  "hasM" : true,
+  "type" : "FeatureCollection",
+  "crs" : {
+    "type" : "name",
+    "properties" : {
+      "name" : "EPSG:4326"
+    }
+  },
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          100.15890059100008,
+          36.899374150000028,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 1,
+        "Category" : "六大湖",
+        "UniqueID" : "qinghaihu",
+        "ChineseName" : "青海湖",
+        "Category_English" : "6Lakes"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          87.063089629000046,
+          48.834200938000038,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 2,
+        "Category" : "六大湖",
+        "UniqueID" : "kanasihu",
+        "ChineseName" : "喀纳斯湖",
+        "Category_English" : "6Lakes"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          90.613244302000055,
+          30.723468186000048,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 3,
+        "Category" : "六大湖",
+        "UniqueID" : "namucuohu",
+        "ChineseName" : "纳木错湖",
+        "Category_English" : "6Lakes"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          128.05407408600001,
+          42.00776300900003,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 4,
+        "Category" : "六大湖",
+        "UniqueID" : "changbaishantianchi",
+        "ChineseName" : "长白山天池",
+        "Category_English" : "6Lakes"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          100.78956797200004,
+          27.711254104000034,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 6,
+        "Category" : "六大湖",
+        "UniqueID" : "lukuhu",
+        "ChineseName" : "泸沽湖",
+        "Category_English" : "6Lakes"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          120.14298435500007,
+          30.248073245000057,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 7,
+        "Category" : "六大湖",
+        "UniqueID" : "hangzhouxihu",
+        "ChineseName" : "杭州西湖",
+        "Category_English" : "6Lakes"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          106.73613759800008,
+          22.848503727000036,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 8,
+        "Category" : "六大瀑布",
+        "UniqueID" : "detianpubu",
+        "ChineseName" : "德天瀑布",
+        "Category_English" : "6Waterfalls"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          110.44251837700006,
+          36.155372968000052,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 9,
+        "Category" : "六大瀑布",
+        "UniqueID" : "huanghekoupubu",
+        "ChineseName" : "黄河口瀑布",
+        "Category_English" : "6Waterfalls"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          104.37805140400008,
+          24.951245422000056,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 10,
+        "Category" : "六大瀑布",
+        "UniqueID" : "luuopingjiulongpubu",
+        "ChineseName" : "罗平九龙瀑布",
+        "Category_English" : "6Waterfalls"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 12,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          103.90231161700007,
+          33.184316610000053,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 12,
+        "Category" : "六大瀑布",
+        "UniqueID" : "jiuzhaigounuorilangpubu",
+        "ChineseName" : "九寨沟诺日朗瀑布",
+        "Category_English" : "6Waterfalls"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 13,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          105.62945357300003,
+          25.970217341000023,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 13,
+        "Category" : "六大瀑布",
+        "UniqueID" : "huangguoshupubu",
+        "ChineseName" : "黄果树瀑布",
+        "Category_English" : "6Waterfalls"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 14,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          129.37005433900003,
+          43.840065816000049,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 14,
+        "Category" : "六大瀑布",
+        "UniqueID" : "jingpohupubu",
+        "ChineseName" : "镜泊湖瀑布",
+        "Category_English" : "6Waterfalls"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 15,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          118.29889545600008,
+          29.732094753000069,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 15,
+        "Category" : "六大名山",
+        "UniqueID" : "huangshan",
+        "ChineseName" : "黄山之奇",
+        "Category_English" : "6Mountains"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 16,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.07125517300005,
+          36.238649933000033,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 16,
+        "Category" : "六大名山",
+        "UniqueID" : "taishan",
+        "ChineseName" : "泰山之雄",
+        "Category_English" : "6Mountains"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 17,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          110.11143847300008,
+          34.451264834000028,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 17,
+        "Category" : "六大名山",
+        "UniqueID" : "huashan",
+        "ChineseName" : "华山之险",
+        "Category_English" : "6Mountains"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 18,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          110.46849491600005,
+          29.471915739000053,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 18,
+        "Category" : "六大名山",
+        "UniqueID" : "tianzishan",
+        "ChineseName" : "天子山之峻",
+        "Category_English" : "6Mountains"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 19,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          103.36220084200005,
+          29.57539739300006,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 19,
+        "Category" : "六大名山",
+        "UniqueID" : "emeishan",
+        "ChineseName" : "峨眉山之秀",
+        "Category_English" : "6Mountains"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 20,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          118.05219672300007,
+          28.913568176000069,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 20,
+        "Category" : "六大名山",
+        "UniqueID" : "sanqingshan",
+        "ChineseName" : "三清山之幽",
+        "Category_English" : "6Mountains"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 21,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          102.03757707400007,
+          31.006880594000052,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 21,
+        "Category" : "六大乡村",
+        "UniqueID" : "danbazangzhai",
+        "ChineseName" : "丹巴藏寨",
+        "Category_English" : "6Villages"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 22,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          102.30528547800009,
+          23.32447449600005,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 22,
+        "Category" : "六大乡村",
+        "UniqueID" : "honghedayangjiexianghanicunluo",
+        "ChineseName" : "红河大羊街乡哈尼村落",
+        "Category_English" : "6Villages"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 23,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          87.011557005000043,
+          48.657369156000073,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 23,
+        "Category" : "六大乡村",
+        "UniqueID" : "kanasihupantuwacun",
+        "ChineseName" : "喀纳斯湖畔图瓦村",
+        "Category_English" : "6Villages"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 24,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          109.46096329600005,
+          25.894875968000065,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 24,
+        "Category" : "六大乡村",
+        "UniqueID" : "lipingzhaoxingdongzhai",
+        "ChineseName" : "梨平肇兴侗寨",
+        "Category_English" : "6Villages"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 25,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          117.77080598000009,
+          29.282412654000041,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 25,
+        "Category" : "六大乡村",
+        "UniqueID" : "wuyuangucunluoqun",
+        "ChineseName" : "婺源古村落群",
+        "Category_English" : "6Villages"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 26,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          100.14016610900006,
+          26.892776570000024,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 26,
+        "Category" : "六大乡村",
+        "UniqueID" : "lijiangdayanzhen",
+        "ChineseName" : "丽江大研镇",
+        "Category_English" : "6Villages"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 27,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          94.822256955000057,
+          29.964475452000045,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 27,
+        "Category" : "六大峡谷",
+        "UniqueID" : "yaluzangbudaxiagu",
+        "ChineseName" : "雅鲁藏布大峡谷",
+        "Category_English" : "6Canyons"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 28,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          100.17853084300003,
+          27.281216465000057,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 28,
+        "Category" : "六大峡谷",
+        "UniqueID" : "jinshajianghutiaoxia",
+        "ChineseName" : "金沙江虎跳峡",
+        "Category_English" : "6Canyons"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 29,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          109.64717087200006,
+          31.00825898800008,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 29,
+        "Category" : "六大峡谷",
+        "UniqueID" : "changjiangsanxia",
+        "ChineseName" : "长江三峡",
+        "Category_English" : "6Canyons"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 30,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          98.852525151000066,
+          25.864738914000043,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 30,
+        "Category" : "六大峡谷",
+        "UniqueID" : "nujiangdaxiagu",
+        "ChineseName" : "怒江大峡谷",
+        "Category_English" : "6Canyons"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 31,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          111.15094955700005,
+          40.297831074000044,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 31,
+        "Category" : "六大峡谷",
+        "UniqueID" : "jinshandaxiagu",
+        "ChineseName" : "晋陕大峡谷",
+        "Category_English" : "6Canyons"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 32,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          103.06797361500008,
+          29.279503229000056,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 32,
+        "Category" : "六大峡谷",
+        "UniqueID" : "daduhejinkoudaxiagu",
+        "ChineseName" : "大渡河金口大峡谷",
+        "Category_English" : "6Canyons"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 33,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          105.72946827300007,
+          26.56006362200003,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 33,
+        "Category" : "六大洞穴",
+        "UniqueID" : "bijiezhijindong",
+        "ChineseName" : "毕节织金洞",
+        "Category_English" : "6Caverns"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 34,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          107.88315500500005,
+          29.253176741000061,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 34,
+        "Category" : "六大洞穴",
+        "UniqueID" : "wulongfurongdong",
+        "ChineseName" : "武隆芙蓉洞",
+        "Category_English" : "6Caverns"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 35,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          110.59081815500008,
+          29.353599313000075,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 35,
+        "Category" : "六大洞穴",
+        "UniqueID" : "zhangjiajiehuanglongdong",
+        "ChineseName" : "张家界黄龙洞",
+        "Category_English" : "6Caverns"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 36,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          107.71612944200007,
+          29.801451865000047,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 36,
+        "Category" : "六大洞穴",
+        "UniqueID" : "fengduxueyudong",
+        "ChineseName" : "丰都雪玉洞",
+        "Category_English" : "6Caverns"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 37,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          123.76824064200002,
+          41.252416555000025,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 37,
+        "Category" : "六大洞穴",
+        "UniqueID" : "benxishuidong",
+        "ChineseName" : "本溪水洞",
+        "Category_English" : "6Caverns"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 38,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          109.27200098800006,
+          30.44653578100008,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 38,
+        "Category" : "六大洞穴",
+        "UniqueID" : "lichuantenglongdong",
+        "ChineseName" : "利川腾龙洞",
+        "Category_English" : "6Caverns"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 39,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          119.34677604100011,
+          49.18707484600003,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 39,
+        "Category" : "六大草原",
+        "UniqueID" : "hulunbeierdongbucaoyuan",
+        "ChineseName" : "呼伦贝尔大草原",
+        "Category_English" : "6Grasslands"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 40,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          83.092131087000041,
+          44.136494998000046,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 40,
+        "Category" : "六大草原",
+        "UniqueID" : "yilicaoyuan",
+        "ChineseName" : "伊犁草原",
+        "Category_English" : "6Grasslands"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 41,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          115.71878444800006,
+          43.784726313000078,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 41,
+        "Category" : "六大草原",
+        "UniqueID" : "xilinguolecaoyuan",
+        "ChineseName" : "锡林郭勒草原",
+        "Category_English" : "6Grasslands"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 42,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          99.243351043000075,
+          30.144451580000066,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 42,
+        "Category" : "六大草原",
+        "UniqueID" : "maoyagaohandacaoyuan",
+        "ChineseName" : "毛垭高寒大草原",
+        "Category_English" : "6Grasslands"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 43,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          90.440963190000048,
+          32.784615390000056,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 43,
+        "Category" : "六大草原",
+        "UniqueID" : "naqugaohancaoyuan",
+        "ChineseName" : "那曲高寒草原",
+        "Category_English" : "6Grasslands"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 44,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          100.86292774100008,
+          38.256154966000054,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 44,
+        "Category" : "六大草原",
+        "UniqueID" : "qilianshancaoyuan",
+        "ChineseName" : "祁连山草原",
+        "Category_English" : "6Grasslands"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 45,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.52212095200008,
+          40.433329446000073,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 45,
+        "Category" : "六大沙漠",
+        "UniqueID" : "badanjilinshamofudi",
+        "ChineseName" : "巴丹吉林沙漠腹地",
+        "Category_English" : "6Deserts"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 46,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          79.656520261000082,
+          40.468066285000077,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 46,
+        "Category" : "六大沙漠",
+        "UniqueID" : "takelamaganshamofudi",
+        "ChineseName" : "塔克拉马丹沙漠腹地",
+        "Category_English" : "6Deserts"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 48,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          119.85609864500009,
+          43.742281256000069,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 48,
+        "Category" : "六大沙漠",
+        "UniqueID" : "jierbantongguteshamofudi",
+        "ChineseName" : "吉尔班通古特沙漠腹地",
+        "Category_English" : "6Deserts"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 49,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          94.663336193000077,
+          40.085361504000048,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 49,
+        "Category" : "六大沙漠",
+        "UniqueID" : "mingshashanyueyaquan",
+        "ChineseName" : "鸣沙山月牙泉",
+        "Category_English" : "6Deserts"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 50,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          105.35274485500008,
+          37.339356847000033,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 50,
+        "Category" : "六大沙漠",
+        "UniqueID" : "shapotou",
+        "ChineseName" : "沙坡头",
+        "Category_English" : "6Deserts"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 51,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          105.67084677100007,
+          38.77459979300005,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 51,
+        "Category" : "六大沙漠",
+        "UniqueID" : "tenggelishamoyuelianghu",
+        "ChineseName" : "腾格里沙漠月亮湖",
+        "Category_English" : "6Deserts"
+      }
+    }
+  ]
+}

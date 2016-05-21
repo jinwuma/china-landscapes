@@ -8,7 +8,7 @@ html, body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 70%;
+    width: 75%;
     height: 65%;
 }
 
@@ -16,7 +16,7 @@ html, body {
     position: absolute;
     /*padding: 20px;*/
     right: 0;
-    width: 30%;
+    width: 25%;
     top:0;
     bottom: 0;
     /*height: 100%;*/
@@ -28,11 +28,60 @@ html, body {
     /*padding: 20px;*/
     left: 0;
     bottom: 0;  
-    width: 70%;
+    width: 75%;
     height: 35%;  
-    background-color: #878484;
+    color: #3d3d3d;
 }
 
 #tableDiv {
     margin: 20px;
+}
+
+td {
+    text-align: center;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: #68B0AB;
+}
+
+
+
+
+table {
+  overflow: hidden;
+}
+
+td, th {
+  padding: 0px;
+  position: relative;
+  outline: 0;
+}
+
+body:not(.nohover) tbody tr:hover {
+  /*background-color: #ffa;*/
+}
+
+td:hover::after,
+thead th:not(:empty):hover::after,
+td:focus::after,
+thead th:not(:empty):focus::after { 
+  content: '';  
+  height: 10000px;
+  left: 0;
+  position: absolute;  
+  top: -5000px;
+  width: 100%;
+  z-index: -1;
+}
+
+td:hover::after,
+th:hover::after {
+  background-color: #C8D5B9;
+}
+
+td:focus::after,
+th:focus::after {
+  background-color: lightblue;
 }
