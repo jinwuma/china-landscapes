@@ -83,7 +83,14 @@ $(document).ready(function(){
         });       
         
         $('#attractionsTable td').on('click', function(){
-            console.log(this.id);
+            var selectedID = this.id;
+            var selectedFeature = data.features.filter(function(d){
+                return d.properties.UniqueID == selectedID;
+            })[0];
+            $('#side-bar-title').text(selectedFeature.properties.ChineseName);
+            $('#item-desc-cn').text(selectedFeature.properties.Description);
+            $('#item-desc-en').text(selectedFeature.properties.Description_English);
+            
         });
         
         $('#tableWrapper').on('mouseout', function(){
