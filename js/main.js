@@ -122,4 +122,4 @@ $(document).ready(function(){
  
 });
 
-consloe.log('china landscape project');
+console.log('china landscape project');
