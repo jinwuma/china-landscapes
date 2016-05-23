@@ -121,3 +121,5 @@ $(document).ready(function(){
     }); 
  
 });
+
+consloe.log('china landscape project');
