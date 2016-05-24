@@ -45,7 +45,7 @@ $(document).ready(function(){
         weight: 1,
         opacity: 0.8,
         fillOpacity: 0.9
-    };    
+    };        
     
     $.getJSON( "./data/attractions.json", function( data ) {
         
@@ -147,15 +147,35 @@ $(document).ready(function(){
                 }
             });
         }
-        
+
         //add points to map
         pointsLayer = L.geoJson(data,{
             onEachFeature: onEachFeature,
             pointToLayer: function (feature, latlng) {
                 return L.circleMarker(latlng, pointMarkerOptions);
             }
-        }).addTo(map);        
+        }) 
+        
+        addBoundaryLayer();
+                   
     }); 
+    
+    function addBoundaryLayer(){
+        $.getJSON("./data/CHN_adm1_simplified.json", function(boundary){
+            
+            function style(feature) {
+                return {
+                    fillColor: '#000',
+                    weight: 1,
+                    opacity: 0.8,
+                    color: '#636363',
+                    fillOpacity: 0.7
+                };
+            }        
+            L.geoJson(boundary, {style: style}).addTo(map);
+            pointsLayer.addTo(map);
+        });  
+    }     
  
 });
 
