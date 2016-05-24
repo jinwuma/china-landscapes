@@ -1,5 +1,10 @@
 
 $(document).ready(function(){
+    
+    // var sidebarWidth = $("#sidebarDiv").width() - 50;
+    // $(".sidebar-img").css('width', sidebarWidth);
+    // $(".sidebar-img").css('height', sidebarWidth);
+    
     var map = L.map('mapDiv', { zoomControl: true, scrollWheelZoom: true, attributionControl: false}).setView([40, 100], 4);
     var pointsLayer;
     
@@ -88,9 +93,10 @@ $(document).ready(function(){
                 return d.properties.UniqueID == selectedID;
             })[0];
             $('#side-bar-title').text(selectedFeature.properties.ChineseName);
+            $('#item-img').html('<img style="width:100%;" src="'+'./data/img/' + selectedFeature.properties.ImageName+'">');
             $('#item-desc-cn').text(selectedFeature.properties.Description);
             $('#item-desc-en').text(selectedFeature.properties.Description_English);
-            
+            $('#item-link').html('<a target="_blank" href="' + selectedFeature.properties.HotLink +'">更多信息</a>') 
         });
         
         $('#tableWrapper').on('mouseout', function(){
