@@ -79,6 +79,10 @@ td {
     cursor: pointer;
 }
 
+td.active {
+    background-color: #346783;
+}
+
 td:hover {
     background-color: #346783;
     color: #fff;

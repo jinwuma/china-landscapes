@@ -88,20 +88,32 @@ $(document).ready(function(){
         });       
         
         $('#attractionsTable td').on('click', function(){
-            var selectedID = this.id;
+            // var selectedID = this.id;
+            updateSideBar(this.id);
+            // var selectedFeature = data.features.filter(function(d){
+            //     return d.properties.UniqueID == selectedID;
+            // })[0];
+            // $('#side-bar-title').text(selectedFeature.properties.ChineseName);
+            // $('#item-img').html('<img style="width:100%;" src="'+'./data/img/' + selectedFeature.properties.ImageName+'">');
+            // $('#item-desc-cn').text(selectedFeature.properties.Description);
+            // $('#item-desc-en').text(selectedFeature.properties.Description_English);
+            // $('#item-link').html('<a target="_blank" href="' + selectedFeature.properties.HotLink +'">更多信息</a>'); 
+        });
+        
+        $('#tableWrapper').on('mouseout', function(){
+            highlightPointFeature();
+        });
+        
+        function updateSideBar(id){
             var selectedFeature = data.features.filter(function(d){
-                return d.properties.UniqueID == selectedID;
+                return d.properties.UniqueID == id;
             })[0];
             $('#side-bar-title').text(selectedFeature.properties.ChineseName);
             $('#item-img').html('<img style="width:100%;" src="'+'./data/img/' + selectedFeature.properties.ImageName+'">');
             $('#item-desc-cn').text(selectedFeature.properties.Description);
             $('#item-desc-en').text(selectedFeature.properties.Description_English);
-            $('#item-link').html('<a target="_blank" href="' + selectedFeature.properties.HotLink +'">更多信息</a>') 
-        });
-        
-        $('#tableWrapper').on('mouseout', function(){
-            highlightPointFeature();
-        });        
+            $('#item-link').html('<a target="_blank" href="' + selectedFeature.properties.HotLink +'">更多信息</a>'); 
+        }        
         
         var highlightPointFeature =  function(category, id){
             pointsLayer.eachLayer(function(layer){
@@ -117,9 +129,28 @@ $(document).ready(function(){
             });
         }          
         
+        function highlightFeature(e){
+            console.log(e.target.feature.properties.UniqueID);
+            $('#' + e.target.feature.properties.UniqueID).addClass('active');
+        }
+        
+        function resetHighlight(){
+            $('td').removeClass('active');
+        }
+        
+        function onEachFeature(feature, layer) {
+            layer.on({
+                mouseover: highlightFeature,
+                mouseout: resetHighlight,
+                click: function(e){
+                    updateSideBar(e.target.feature.properties.UniqueID);
+                }
+            });
+        }
+        
         //add points to map
         pointsLayer = L.geoJson(data,{
-            // onEachFeature: onEachFeature,
+            onEachFeature: onEachFeature,
             pointToLayer: function (feature, latlng) {
                 return L.circleMarker(latlng, pointMarkerOptions);
             }
